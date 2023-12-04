@@ -33,7 +33,71 @@
                             <input type = "date" id="birthday" name="birthday">
                         </td>
                     </tr>
-                </table>
+                    <tr>
+                        <td>
+                            <label for = "age">อายุ</label>
+                        </td>
+                        <td>
+                            <input type = "text" id="age" name="age">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>เพศ</label>
+                        </td>
+                        <td>
+                            <input type="radio" id ="man" name="gender">
+                            <label for="man">ชาย</label>
+                            <input type="radio" id="woman" name="gender">
+                            <label for="woman">หญิง</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>รูป</label>
+                        </td>
+                        <td>
+                            <input type="file" id="img" name="img">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่</label>
+                        </td>
+                        <td>
+                            <textarea name="address" id="address" cols="30" rows="7"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>สีที่ชอบ</label>
+                        </td>
+                        <td>
+                            <select name="color" id="color">
+                                <option value="red">สีแดง</option>
+                                <option value="green">สีเขียว</option>
+                                <option value="blue">สีน้ำเงิน</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>แนวเพลงที่ชอบ</label>
+                        </td>
+                        <td>
+                            <input type="radio" id ="blues" name="musictypes">
+                            <label for="man">บลูส์</label>
+                            <input type="radio" id="string" name="musictypes">
+                            <label for="woman">สตริง</label>
+                            <input type="radio" id="other" name="musictypes">
+                            <label for="other">อื่นๆ</label>
+                        </td>
+                    </tr>
+                </table><br>
+                <input type="checkbox" id="accept" name="accept">
+                <label for="accept">ยินยอมให้เก็บข้อมูล</label><br><br>
+                <input type="reset" value="Reset">
+                <input style="margin-left: 15%;" type="submit" value="Submit">
             </form>
         </div>
     </body>

@@ -1,0 +1,12 @@
+.box{
+    overflow: scroll;
+    width: 70%;
+    height: 50%;
+    max-width: 200;
+    margin : 0 auto;
+    background: #7f7f83;
+}
+table {
+    width: 80%;
+    height: 80%;
+}

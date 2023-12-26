@@ -1,32 +1,33 @@
 <html>
-
+<div class = "multitable">
 <head>
     <meta charset="utf-8">
 </head>
-
+<link rel="stylesheet" href="mystyle.css">
 <body>
     <?php $multi_x = 2; ?>
     <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
-    for($i = 0;$i < 25;$i++){
-        
-    }
+    <div class = "box">
     <table>
         <tbody>
-            <tr>
-                <td></td>
-                <td>x</td>
-                <td></td>
-                <td>=</td>
-                <td></td>
-            </tr>
+            <?php for($i = 1;$i < 25;$i++){
+                $sum = $multi_x * $i;
+                echo "
+                <tr>
+                    <td>$multi_x</td>
+                    <td>x</td>
+                    <td>$i</td>
+                    <td>=</td>
+                    <td>$sum</td>
+                </tr>
+                ";
+            }
+            ?>
         </tbody>
     </table>
+        </div>
     <style>
-        table {
-            width: 150px;
-            height: 265px;
-        }
     </style>
 </body>
-
+</div>
 </html>

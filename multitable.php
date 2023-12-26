@@ -7,7 +7,9 @@
 <body>
     <?php $multi_x = 2; ?>
     <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
-
+    for($i = 0;$i < 25;$i++){
+        
+    }
     <table>
         <tbody>
             <tr>

@@ -1,33 +1,42 @@
-<html>
-<div class = "multitable">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-</head>
-<link rel="stylesheet" href="mystyle.css">
-<body>
-    <h1><?php echo $multi_x ; ?>x</h1>
-    <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
-    <div class = "box">
-    <table>
-        <tbody>
-            <?php for($i = 1;$i < 25;$i++){
-                $sum = $multi_x * $i;
-                echo "
-                <tr>
-                    <td>$multi_x</td>
-                    <td>x</td>
-                    <td>$i</td>
-                    <td>=</td>
-                    <td>$sum</td>
-                </tr>
-                ";
-            }
-            ?>
-        </tbody>
-    </table>
-        </div>
+    <meta charset="UTF-8">
+    <title>Easy Multiple Table</title>
     <style>
+        .container {             
+            flex-direction: column;             
+            display: flex;            
+            align-items: center;             
+            width: 100%;             
+            height: 100vh;             
+            margin: 0px;             
+            padding: 0px;             
+            overflow: auto;         
+        }
     </style>
+</head>
+<body>
+    <div class="container">
+        <h1><?php echo $myinput; ?>x</h1>
+        <?php
+        $value = 0;
+        for ($i=1; $i <= 24; $i++) {
+            $value = $myinput * $i;
+            echo "
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>$myinput</td>
+                                <td>x</td>
+                                <td>$i</td>
+                                <td>=</td>
+                                <td>$value</td>
+                            </tr>
+                        </tbody>
+                    </table>";
+        }
+        ?>
+    </div>
 </body>
-</div>
 </html>

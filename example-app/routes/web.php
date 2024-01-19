@@ -27,6 +27,9 @@ Route::get('/my-route', function () {
     $data['val_b'] = "Laravel";
     return view('myfolder.mypage',$data);
 });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::post('/my-route', function (Request $req) {
     $data['myinput'] = $req->input('myinput');

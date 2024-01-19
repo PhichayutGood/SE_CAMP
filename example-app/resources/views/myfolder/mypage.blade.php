@@ -7,6 +7,10 @@
         *{
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
+        html{
+            background-color: black;
+            color: white;
+        }
         h1{
             margin-top: 20px;
             text-align: center;
@@ -32,6 +36,7 @@
             display: inline-block;
             border-radius: 0 10px 10px 0;
             background-color: rgb(7, 143, 255);
+            border: none;
         }
         .container {
             flex-direction: column;

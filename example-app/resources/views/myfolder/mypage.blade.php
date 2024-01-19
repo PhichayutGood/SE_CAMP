@@ -30,14 +30,15 @@
         #btn_submit {
             position: relative;
             display: inline-block;
-            border-radius: 0 25px 25px 0;
+            border-radius: 0 10px 10px 0;
+            background-color: rgb(7, 143, 255);
         }
         .container {
             flex-direction: column;
             display: flex;
             align-items: center;
             width: 100%;
-            height: 100vh;     
+            height: 100vh;
             margin: 0px;
             padding: 0px;
             overflow: auto;

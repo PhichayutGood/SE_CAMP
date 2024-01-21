@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class MyController extends Controller
 {
-    private $myvar = "Hello World";
+    private $myvar = "Hello World!";
 
     function __construct()//MyController
     {

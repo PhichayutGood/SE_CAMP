@@ -246,7 +246,7 @@
 
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
-            @yield('content')
+            @yield('test')
         </div>
         <!-- /.content-wrapper -->
 

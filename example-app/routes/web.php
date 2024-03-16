@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\C_titles;
 use App\Http\Controllers\MyController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -14,6 +15,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::resource('titles', C_titles::class);
+
 Route::get('/my-controller',[MyController::class,'index']);
 Route::get('/my-controller2','App\Http\Controllers\MyController@index');
 Route::namespace('App\Http\Controllers')->group(function(){

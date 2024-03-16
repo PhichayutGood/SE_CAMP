@@ -12,6 +12,7 @@ class C_titles extends Controller
     public function index()
     {
         //
+        return view('titles.index');
     }
 
     /**

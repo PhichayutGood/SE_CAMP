@@ -17,7 +17,7 @@
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleInputEmail1">คำนำหน้าชื่อ</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="เช่น นาย นาง นางสาว อื่นๆ">
                   </div>
                   <div class="form-check">
                     <input type="checkbox" checked class="form-check-input" id="exampleCheck1">
@@ -27,7 +27,7 @@
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-success">บันทึก</button>
                 </div>
               </form>
             </div>
@@ -36,7 +36,7 @@
 
 
               <div class="card-header">
-                <h3 class="card-title">Table</h3>
+                <h3 class="card-title">ผลลัพธ์</h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body">

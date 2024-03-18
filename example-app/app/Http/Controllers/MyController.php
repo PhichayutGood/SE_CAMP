@@ -23,5 +23,5 @@ class MyController extends Controller
     {
         $data['myinput'] = $req->input('myinput');
         return view('my-route',$data);
-    }
+    } 
 }
